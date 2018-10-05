@@ -1,0 +1,40 @@
+{
+  "name": "node-boilerplate",
+  "version": "1.0.0",
+  "description": "Minimal Boilerplate for node applications. Clone the repo to get started.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon src/test.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysingh/node-boilerplate.git"
+  },
+  "keywords": [
+    "node",
+    "boileplate",
+    "template"
+  ],
+  "author": "Yudhishthir Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ysingh/node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ysingh/node-boilerplate#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "lodash.sample": "^4.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-mocha": "^5.2.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-security": "^1.4.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.4"
+  }
+}

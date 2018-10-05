@@ -1,0 +1,14 @@
+{
+  "extends": ["airbnb-base", "plugin:security/recommended", "eslint:recommended"],
+  "plugins": ["mocha", "security"],
+  "rules": {
+    "mocha/no-exclusive-tests": "error",
+    "node/exports-style": ["error", "module.exports"],
+    "node/prefer-global/buffer": ["error", "always"],
+    "node/prefer-global/console": ["error", "always"],
+    "node/prefer-global/process": ["error", "always"],
+    "node/prefer-global/url-search-params": ["error", "always"],
+    "node/prefer-global/url": ["error", "always"],
+    "no-console": 0
+  }
+}
